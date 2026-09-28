@@ -1,6 +1,10 @@
 # Portside
 
-macOS 菜单栏工具，只读展示本机正在运行的服务：
+**在菜单栏里看清本机服务。** Portside 是一款面向 macOS 的轻量原生工具，把 Homebrew 服务、Docker 容器和 TCP 监听端口集中呈现，并尽可能显示实际进程名称。打开菜单即可查看运行状态、端口，以及可直接访问的本地网页服务。
+
+Portside 只读取本机状态，不会启动、停止或修改服务，适合快速检查本地开发环境和后台服务。支持 macOS 14 及以上版本。
+
+它会汇总以下信息：
 
 - **Homebrew Services** — `brew services list --json`
 - **Docker 容器** — `docker ps --format '{{json .}}'`
