@@ -41,8 +41,8 @@ cat > "$APP/Contents/Info.plist" <<'PLIST'
     <key>CFBundleName</key><string>Portside</string>
     <key>CFBundleDisplayName</key><string>Portside</string>
     <key>CFBundleIdentifier</key><string>com.jony.portside</string>
-    <key>CFBundleVersion</key><string>1.0</string>
-    <key>CFBundleShortVersionString</key><string>1.0</string>
+    <key>CFBundleVersion</key><string>0.1.0</string>
+    <key>CFBundleShortVersionString</key><string>0.1.0</string>
     <key>CFBundlePackageType</key><string>APPL</string>
     <key>CFBundleExecutable</key><string>Portside</string>
     <key>CFBundleIconFile</key><string>AppIcon.icns</string>
